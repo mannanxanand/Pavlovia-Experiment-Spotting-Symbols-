@@ -1,4 +1,4 @@
-﻿/******************** 
+/******************** 
  * Spotsymbols Test *
  ********************/
 
@@ -20,7 +20,7 @@ let expInfo = {
 
 // Start code blocks for 'Before Experiment'
 // Run 'Before Experiment' code from scorecount
-points = 0;
+var points = 0;
 
 // init psychoJS:
 const psychoJS = new PsychoJS({
