@@ -1,0 +1,294 @@
+0.9318 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+8.7964 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+8.7982 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd0534db3a0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fcfd1836640>, multiSample=False, name='window1', numSamples=2, pos=[378.0, 245.5], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.7989 	EXP 	window1: mouseVisible = True
+8.8007 	EXP 	window1: mouseVisible = False
+8.8007 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.8008 	EXP 	window1: recordFrameIntervals = False
+8.8961 	EXP 	window1: recordFrameIntervals = True
+9.7393 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+11.4602 	EXP 	Created Welcometext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Welcometext', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.4609 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.4725 	EXP 	Created QuestionSeeker = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='QuestionSeeker', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([720., 405.]), texRes=128.0, units='pix', win=Window(...))
+11.4756 	EXP 	Created ResponseSeeker = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='ResponseSeeker', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([720., 405.]), texRes=128.0, units='pix', win=Window(...))
+11.4763 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.4851 	EXP 	Created Byebye = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Byebye', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.4994 	WARNING 	t of last frame was 1760.58ms (=1/0)
+11.4994 	EXP 	Welcometext: autoDraw = True
+12.9517 	DATA 	Keypress: space
+12.9564 	WARNING 	t of last frame was 31.74ms (=1/31)
+12.9564 	EXP 	Welcometext: autoDraw = False
+12.9564 	EXP 	text: text = ''
+12.9564 	EXP 	text: autoDraw = True
+13.4712 	EXP 	Imported Iterations.xlsx as conditions, 20 conditions, 3 params
+13.4723 	EXP 	Created sequence: sequential, trialTypes=20, nReps=1, seed=None
+13.4727 	EXP 	New trial (rep=0, index=0): {'i_ques': 'Questions/Slide2.png', 'i_res': 'Responses/Slide3.png', 'i_ans': 2}
+13.5185 	WARNING 	t of last frame was 67.56ms (=1/14)
+13.5185 	EXP 	text: autoDraw = False
+13.5185 	EXP 	QuestionSeeker: image = 'Questions/Slide2.png'
+13.5185 	EXP 	ResponseSeeker: image = 'Responses/Slide3.png'
+13.5185 	EXP 	QuestionSeeker: autoDraw = True
+16.9497 	EXP 	ResponseSeeker: autoDraw = True
+17.0167 	EXP 	QuestionSeeker: autoDraw = False
+20.4627 	DATA 	Keypress: 0
+20.4682 	EXP 	QuestionSeeker: autoDraw = False
+20.4682 	EXP 	ResponseSeeker: autoDraw = False
+20.4682 	EXP 	text: text = ''
+20.4682 	EXP 	text: autoDraw = True
+20.9557 	EXP 	New trial (rep=0, index=1): {'i_ques': 'Questions/Slide4.png', 'i_res': 'Responses/Slide5.png', 'i_ans': 4}
+20.9814 	WARNING 	t of last frame was 26.98ms (=1/37)
+20.9814 	EXP 	text: autoDraw = False
+20.9814 	EXP 	text: autoDraw = False
+20.9814 	EXP 	QuestionSeeker: image = 'Questions/Slide4.png'
+20.9814 	EXP 	ResponseSeeker: image = 'Responses/Slide5.png'
+20.9814 	EXP 	QuestionSeeker: autoDraw = True
+24.4573 	EXP 	ResponseSeeker: autoDraw = True
+24.4832 	EXP 	QuestionSeeker: autoDraw = False
+30.0711 	DATA 	Keypress: 2
+30.0758 	EXP 	QuestionSeeker: autoDraw = False
+30.0758 	EXP 	ResponseSeeker: autoDraw = False
+30.0758 	EXP 	text: text = ''
+30.0758 	EXP 	text: autoDraw = True
+30.5679 	EXP 	New trial (rep=0, index=2): {'i_ques': 'Questions/Slide6.png', 'i_res': 'Responses/Slide7.png', 'i_ans': 1}
+30.5912 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+30.5911 	EXP 	text: autoDraw = False
+30.5911 	EXP 	text: autoDraw = False
+30.5911 	EXP 	QuestionSeeker: image = 'Questions/Slide6.png'
+30.5911 	EXP 	ResponseSeeker: image = 'Responses/Slide7.png'
+30.5911 	EXP 	QuestionSeeker: autoDraw = True
+34.0681 	EXP 	ResponseSeeker: autoDraw = True
+34.0763 	EXP 	QuestionSeeker: autoDraw = False
+34.8373 	DATA 	Keypress: 1
+34.8420 	EXP 	QuestionSeeker: autoDraw = False
+34.8420 	EXP 	ResponseSeeker: autoDraw = False
+34.8420 	EXP 	text: text = ''
+34.8420 	EXP 	text: autoDraw = True
+35.3273 	EXP 	New trial (rep=0, index=3): {'i_ques': 'Questions/Slide8.png', 'i_res': 'Responses/Slide9.png', 'i_ans': 3}
+35.3503 	EXP 	text: autoDraw = False
+35.3503 	EXP 	text: autoDraw = False
+35.3503 	EXP 	QuestionSeeker: image = 'Questions/Slide8.png'
+35.3503 	EXP 	ResponseSeeker: image = 'Responses/Slide9.png'
+35.3503 	EXP 	QuestionSeeker: autoDraw = True
+38.8333 	EXP 	ResponseSeeker: autoDraw = True
+38.8384 	EXP 	QuestionSeeker: autoDraw = False
+52.6972 	DATA 	Keypress: 1
+52.7014 	EXP 	QuestionSeeker: autoDraw = False
+52.7014 	EXP 	ResponseSeeker: autoDraw = False
+52.7014 	EXP 	text: text = ''
+52.7014 	EXP 	text: autoDraw = True
+53.1931 	EXP 	New trial (rep=0, index=4): {'i_ques': 'Questions/Slide10.png', 'i_res': 'Responses/Slide11.png', 'i_ans': 1}
+53.2161 	EXP 	text: autoDraw = False
+53.2161 	EXP 	text: autoDraw = False
+53.2161 	EXP 	QuestionSeeker: image = 'Questions/Slide10.png'
+53.2161 	EXP 	ResponseSeeker: image = 'Responses/Slide11.png'
+53.2161 	EXP 	QuestionSeeker: autoDraw = True
+56.6914 	EXP 	ResponseSeeker: autoDraw = True
+56.7159 	EXP 	QuestionSeeker: autoDraw = False
+57.2282 	DATA 	Keypress: 1
+57.2324 	EXP 	QuestionSeeker: autoDraw = False
+57.2324 	EXP 	ResponseSeeker: autoDraw = False
+57.2324 	EXP 	text: text = ''
+57.2324 	EXP 	text: autoDraw = True
+57.7190 	EXP 	New trial (rep=0, index=5): {'i_ques': 'Questions/Slide12.png', 'i_res': 'Responses/Slide13.png', 'i_ans': 4}
+57.7413 	EXP 	text: autoDraw = False
+57.7413 	EXP 	text: autoDraw = False
+57.7413 	EXP 	QuestionSeeker: image = 'Questions/Slide12.png'
+57.7413 	EXP 	ResponseSeeker: image = 'Responses/Slide13.png'
+57.7413 	EXP 	QuestionSeeker: autoDraw = True
+61.2249 	EXP 	ResponseSeeker: autoDraw = True
+61.2289 	EXP 	QuestionSeeker: autoDraw = False
+63.4148 	DATA 	Keypress: 0
+63.4201 	EXP 	QuestionSeeker: autoDraw = False
+63.4201 	EXP 	ResponseSeeker: autoDraw = False
+63.4201 	EXP 	text: text = ''
+63.4201 	EXP 	text: autoDraw = True
+63.9103 	EXP 	New trial (rep=0, index=6): {'i_ques': 'Questions/Slide14.png', 'i_res': 'Responses/Slide15.png', 'i_ans': 2}
+63.9360 	EXP 	text: autoDraw = False
+63.9360 	EXP 	text: autoDraw = False
+63.9360 	EXP 	QuestionSeeker: image = 'Questions/Slide14.png'
+63.9360 	EXP 	ResponseSeeker: image = 'Responses/Slide15.png'
+63.9360 	EXP 	QuestionSeeker: autoDraw = True
+67.4072 	EXP 	ResponseSeeker: autoDraw = True
+67.4327 	EXP 	QuestionSeeker: autoDraw = False
+71.6308 	DATA 	Keypress: 4
+71.6354 	EXP 	QuestionSeeker: autoDraw = False
+71.6354 	EXP 	ResponseSeeker: autoDraw = False
+71.6354 	EXP 	text: text = ''
+71.6354 	EXP 	text: autoDraw = True
+72.1262 	EXP 	New trial (rep=0, index=7): {'i_ques': 'Questions/Slide16.png', 'i_res': 'Responses/Slide17.png', 'i_ans': 4}
+72.1511 	EXP 	text: autoDraw = False
+72.1511 	EXP 	text: autoDraw = False
+72.1511 	EXP 	QuestionSeeker: image = 'Questions/Slide16.png'
+72.1511 	EXP 	ResponseSeeker: image = 'Responses/Slide17.png'
+72.1511 	EXP 	QuestionSeeker: autoDraw = True
+75.6248 	EXP 	ResponseSeeker: autoDraw = True
+75.6487 	EXP 	QuestionSeeker: autoDraw = False
+79.6817 	DATA 	Keypress: 4
+79.6865 	EXP 	QuestionSeeker: autoDraw = False
+79.6865 	EXP 	ResponseSeeker: autoDraw = False
+79.6865 	EXP 	text: text = ''
+79.6865 	EXP 	text: autoDraw = True
+80.1771 	EXP 	New trial (rep=0, index=8): {'i_ques': 'Questions/Slide18.png', 'i_res': 'Responses/Slide19.png', 'i_ans': 4}
+80.2007 	EXP 	text: autoDraw = False
+80.2007 	EXP 	text: autoDraw = False
+80.2007 	EXP 	QuestionSeeker: image = 'Questions/Slide18.png'
+80.2007 	EXP 	ResponseSeeker: image = 'Responses/Slide19.png'
+80.2007 	EXP 	QuestionSeeker: autoDraw = True
+83.6681 	EXP 	ResponseSeeker: autoDraw = True
+83.7091 	EXP 	QuestionSeeker: autoDraw = False
+85.2557 	DATA 	Keypress: 4
+85.2599 	EXP 	QuestionSeeker: autoDraw = False
+85.2599 	EXP 	ResponseSeeker: autoDraw = False
+85.2599 	EXP 	text: text = ''
+85.2599 	EXP 	text: autoDraw = True
+85.7440 	EXP 	New trial (rep=0, index=9): {'i_ques': 'Questions/Slide20.png', 'i_res': 'Responses/Slide21.png', 'i_ans': 3}
+85.7665 	EXP 	text: autoDraw = False
+85.7665 	EXP 	text: autoDraw = False
+85.7665 	EXP 	QuestionSeeker: image = 'Questions/Slide20.png'
+85.7665 	EXP 	ResponseSeeker: image = 'Responses/Slide21.png'
+85.7665 	EXP 	QuestionSeeker: autoDraw = True
+89.2488 	EXP 	ResponseSeeker: autoDraw = True
+89.2678 	EXP 	QuestionSeeker: autoDraw = False
+91.2850 	DATA 	Keypress: 3
+91.2897 	EXP 	QuestionSeeker: autoDraw = False
+91.2897 	EXP 	ResponseSeeker: autoDraw = False
+91.2897 	EXP 	text: text = ''
+91.2897 	EXP 	text: autoDraw = True
+91.7849 	EXP 	New trial (rep=0, index=10): {'i_ques': 'Questions/Slide22.png', 'i_res': 'Responses/Slide23.png', 'i_ans': 2}
+91.8082 	EXP 	text: autoDraw = False
+91.8082 	EXP 	QuestionSeeker: image = 'Questions/Slide22.png'
+91.8082 	EXP 	ResponseSeeker: image = 'Responses/Slide23.png'
+91.8082 	EXP 	QuestionSeeker: autoDraw = True
+94.8966 	DATA 	Keypress: 2
+95.2831 	EXP 	ResponseSeeker: autoDraw = True
+95.3083 	EXP 	QuestionSeeker: autoDraw = False
+95.5375 	EXP 	QuestionSeeker: autoDraw = False
+95.5375 	EXP 	ResponseSeeker: autoDraw = False
+95.5375 	EXP 	text: text = ''
+95.5375 	EXP 	text: autoDraw = True
+96.0262 	EXP 	New trial (rep=0, index=11): {'i_ques': 'Questions/Slide24.png', 'i_res': 'Responses/Slide25.png', 'i_ans': 0}
+96.0492 	EXP 	text: autoDraw = False
+96.0492 	EXP 	text: autoDraw = False
+96.0492 	EXP 	QuestionSeeker: image = 'Questions/Slide24.png'
+96.0492 	EXP 	ResponseSeeker: image = 'Responses/Slide25.png'
+96.0492 	EXP 	QuestionSeeker: autoDraw = True
+99.5327 	EXP 	ResponseSeeker: autoDraw = True
+99.5368 	EXP 	QuestionSeeker: autoDraw = False
+101.5703 	DATA 	Keypress: 0
+101.5759 	EXP 	QuestionSeeker: autoDraw = False
+101.5759 	EXP 	ResponseSeeker: autoDraw = False
+101.5759 	EXP 	text: text = ''
+101.5759 	EXP 	text: autoDraw = True
+102.0688 	EXP 	New trial (rep=0, index=12): {'i_ques': 'Questions/Slide26.png', 'i_res': 'Responses/Slide27.png', 'i_ans': 1}
+102.0922 	EXP 	text: autoDraw = False
+102.0922 	EXP 	QuestionSeeker: image = 'Questions/Slide26.png'
+102.0922 	EXP 	ResponseSeeker: image = 'Responses/Slide27.png'
+102.0922 	EXP 	QuestionSeeker: autoDraw = True
+104.9859 	DATA 	Keypress: 1
+105.5658 	EXP 	ResponseSeeker: autoDraw = True
+105.5917 	EXP 	QuestionSeeker: autoDraw = False
+105.8237 	EXP 	QuestionSeeker: autoDraw = False
+105.8237 	EXP 	ResponseSeeker: autoDraw = False
+105.8237 	EXP 	text: text = ''
+105.8237 	EXP 	text: autoDraw = True
+106.3074 	EXP 	New trial (rep=0, index=13): {'i_ques': 'Questions/Slide28.png', 'i_res': 'Responses/Slide29.png', 'i_ans': 6}
+106.3305 	EXP 	text: autoDraw = False
+106.3305 	EXP 	text: autoDraw = False
+106.3305 	EXP 	QuestionSeeker: image = 'Questions/Slide28.png'
+106.3305 	EXP 	ResponseSeeker: image = 'Responses/Slide29.png'
+106.3305 	EXP 	QuestionSeeker: autoDraw = True
+109.8117 	EXP 	ResponseSeeker: autoDraw = True
+109.8330 	EXP 	QuestionSeeker: autoDraw = False
+113.2807 	DATA 	Keypress: 3
+113.2846 	EXP 	QuestionSeeker: autoDraw = False
+113.2846 	EXP 	ResponseSeeker: autoDraw = False
+113.2846 	EXP 	text: text = ''
+113.2846 	EXP 	text: autoDraw = True
+113.7749 	EXP 	New trial (rep=0, index=14): {'i_ques': 'Questions/Slide30.png', 'i_res': 'Responses/Slide31.png', 'i_ans': 0}
+113.8006 	EXP 	text: autoDraw = False
+113.8006 	EXP 	text: autoDraw = False
+113.8006 	EXP 	QuestionSeeker: image = 'Questions/Slide30.png'
+113.8006 	EXP 	ResponseSeeker: image = 'Responses/Slide31.png'
+113.8006 	EXP 	QuestionSeeker: autoDraw = True
+117.2755 	EXP 	ResponseSeeker: autoDraw = True
+117.2990 	EXP 	QuestionSeeker: autoDraw = False
+118.5143 	DATA 	Keypress: 2
+118.5190 	EXP 	QuestionSeeker: autoDraw = False
+118.5190 	EXP 	ResponseSeeker: autoDraw = False
+118.5190 	EXP 	text: text = ''
+118.5190 	EXP 	text: autoDraw = True
+119.0091 	EXP 	New trial (rep=0, index=15): {'i_ques': 'Questions/Slide32.png', 'i_res': 'Responses/Slide33.png', 'i_ans': 0}
+119.0330 	EXP 	text: autoDraw = False
+119.0330 	EXP 	text: autoDraw = False
+119.0330 	EXP 	QuestionSeeker: image = 'Questions/Slide32.png'
+119.0330 	EXP 	ResponseSeeker: image = 'Responses/Slide33.png'
+119.0330 	EXP 	QuestionSeeker: autoDraw = True
+122.5168 	EXP 	ResponseSeeker: autoDraw = True
+122.5247 	EXP 	QuestionSeeker: autoDraw = False
+124.1563 	DATA 	Keypress: 0
+124.1615 	EXP 	QuestionSeeker: autoDraw = False
+124.1615 	EXP 	ResponseSeeker: autoDraw = False
+124.1615 	EXP 	text: text = ''
+124.1615 	EXP 	text: autoDraw = True
+124.6595 	EXP 	New trial (rep=0, index=16): {'i_ques': 'Questions/Slide34.png', 'i_res': 'Responses/Slide35.png', 'i_ans': 3}
+124.6819 	EXP 	text: autoDraw = False
+124.6819 	EXP 	QuestionSeeker: image = 'Questions/Slide34.png'
+124.6819 	EXP 	ResponseSeeker: image = 'Responses/Slide35.png'
+124.6819 	EXP 	QuestionSeeker: autoDraw = True
+128.1507 	EXP 	ResponseSeeker: autoDraw = True
+128.1831 	EXP 	QuestionSeeker: autoDraw = False
+128.5564 	DATA 	Keypress: 3
+128.5619 	EXP 	QuestionSeeker: autoDraw = False
+128.5619 	EXP 	ResponseSeeker: autoDraw = False
+128.5619 	EXP 	text: text = ''
+128.5619 	EXP 	text: autoDraw = True
+129.0599 	EXP 	New trial (rep=0, index=17): {'i_ques': 'Questions/Slide36.png', 'i_res': 'Responses/Slide37.png', 'i_ans': 2}
+129.0844 	EXP 	text: autoDraw = False
+129.0844 	EXP 	QuestionSeeker: image = 'Questions/Slide36.png'
+129.0844 	EXP 	ResponseSeeker: image = 'Responses/Slide37.png'
+129.0844 	EXP 	QuestionSeeker: autoDraw = True
+132.5580 	EXP 	ResponseSeeker: autoDraw = True
+132.5830 	EXP 	QuestionSeeker: autoDraw = False
+133.0317 	DATA 	Keypress: 2
+133.0369 	EXP 	QuestionSeeker: autoDraw = False
+133.0369 	EXP 	ResponseSeeker: autoDraw = False
+133.0369 	EXP 	text: text = ''
+133.0369 	EXP 	text: autoDraw = True
+133.5255 	EXP 	New trial (rep=0, index=18): {'i_ques': 'Questions/Slide38.png', 'i_res': 'Responses/Slide39.png', 'i_ans': 2}
+133.5480 	EXP 	text: autoDraw = False
+133.5480 	EXP 	text: autoDraw = False
+133.5480 	EXP 	QuestionSeeker: image = 'Questions/Slide38.png'
+133.5480 	EXP 	ResponseSeeker: image = 'Responses/Slide39.png'
+133.5480 	EXP 	QuestionSeeker: autoDraw = True
+137.0247 	EXP 	ResponseSeeker: autoDraw = True
+137.0492 	EXP 	QuestionSeeker: autoDraw = False
+137.5722 	DATA 	Keypress: 2
+137.5775 	EXP 	QuestionSeeker: autoDraw = False
+137.5775 	EXP 	ResponseSeeker: autoDraw = False
+137.5775 	EXP 	text: text = ''
+137.5775 	EXP 	text: autoDraw = True
+138.0677 	EXP 	New trial (rep=0, index=19): {'i_ques': 'Questions/Slide40.png', 'i_res': 'Responses/Slide41.png', 'i_ans': 2}
+138.0903 	EXP 	text: autoDraw = False
+138.0903 	EXP 	text: autoDraw = False
+138.0903 	EXP 	QuestionSeeker: image = 'Questions/Slide40.png'
+138.0903 	EXP 	ResponseSeeker: image = 'Responses/Slide41.png'
+138.0903 	EXP 	QuestionSeeker: autoDraw = True
+141.5649 	EXP 	ResponseSeeker: autoDraw = True
+141.5924 	EXP 	QuestionSeeker: autoDraw = False
+142.1012 	DATA 	Keypress: 0
+142.1073 	EXP 	QuestionSeeker: autoDraw = False
+142.1073 	EXP 	ResponseSeeker: autoDraw = False
+142.1073 	EXP 	text: text = ''
+142.1073 	EXP 	text: autoDraw = True
+142.5958 	EXP 	text: autoDraw = False
+142.5958 	EXP 	text: autoDraw = False
+142.5958 	EXP 	Byebye: autoDraw = True
+144.5058 	DATA 	Keypress: space
+144.5103 	EXP 	Byebye: autoDraw = False
+144.5311 	EXP 	window1: mouseVisible = True
